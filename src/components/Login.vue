@@ -30,13 +30,13 @@
 </script>
 
 <template>
-    <v-container width="50%" class="text-center mt-12" style="background-color: #F5F5F5;">
+    <v-container width="50%" class="text-center mt-12" style="background-color: #F2F2F2;">
         <v-row>
             <v-col md="12">
                 <v-form width="50%">
                     <v-row>
-                        <v-col md="12">
-                            <v-img src="MacFitLogo.jpg" width="110px" height="110px"></v-img>
+                        <v-col md="12" class="d-flex justify center">
+                            <v-img src="MacFitLogo.png" width="110px" height="110px"></v-img>
                         </v-col>
                     </v-row>
                     <v-row>
