@@ -8,30 +8,30 @@
     onMounted(()=> {
     initialMap.value = L.map('map').setView([-1.2953145569779758, 36.817184449599566], 10)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
+        maxZoom: 12,
     }).addTo(initialMap.value);
-    L.marker([-1.3073328374609299, 36.81211146039793]).addTo(initialMap.value);
+    L.marker([-1.282530, 36.823628]).addTo(initialMap.value);
     });
     onMounted(()=> {
     initialMap.value = L.map('map2').setView([-1.2953145569779758, 36.817184449599566], 10)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
+        maxZoom: 12,
     }).addTo(initialMap.value);
     L.marker([-1.3073328374609299, 36.81211146039793]).addTo(initialMap.value);
     });
     onMounted(()=> {
     initialMap.value = L.map('map3').setView([-1.2953145569779758, 36.817184449599566], 10)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
+        maxZoom: 12,
     }).addTo(initialMap.value);
-    L.marker([-1.3073328374609299, 36.81211146039793]).addTo(initialMap.value);
+    L.marker([-1.266537, 36.809685]).addTo(initialMap.value);
     });
     onMounted(()=> {
     initialMap.value = L.map('map4').setView([-1.2953145569779758, 36.817184449599566], 10)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
+        maxZoom: 12,
     }).addTo(initialMap.value);
-    L.marker([-1.3073328374609299, 36.81211146039793]).addTo(initialMap.value);
+    L.marker([-1.291175, 36.880518]).addTo(initialMap.value);
     });
 </script>
 

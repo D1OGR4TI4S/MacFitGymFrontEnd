@@ -7,10 +7,10 @@
         <v-row>
             <v-col>
                 <v-card>
-                    <v-img src="" class="h-50" cover></v-img>
+                    <v-img src="accountcircle.jpg" class="h-50" cover></v-img>
                     <v-card-title>{{ userDetails.name }}</v-card-title>
                     <v-card-text>{{ userDetails.email }}</v-card-text>
-                    <v-card-text>{{ userDetails.phone }}</v-card-text>
+                    <v-card-text>{{ userDetails.phoneNumber }}</v-card-text>
                     <v-card-text>{{ userDetails.gymLocation }}</v-card-text>
                     <div v-if="userDetails.subscription">
                         <v-card-text>Your current subscription is: {{ userDetails.subscription.name }} at {{ userDetails.subscription.price }}</v-card-text>
