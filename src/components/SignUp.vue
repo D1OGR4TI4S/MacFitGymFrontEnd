@@ -36,10 +36,10 @@
         const formData = new FormData();
         formData.append("name", firstName.value +' '+ lastName.value,);
         formData.append("email", email.value);
-        formData.append("phoneNumber", phoneNumber.value);
+        formData.append("phone_number", phoneNumber.value);
         formData.append("dob", dob.value);
         formData.append("gender", gender.value);
-        formData.append("gymLocation", gymLocation.value);
+        formData.append("gym_location", gymLocation.value);
         formData.append("password", password.value);
         formData.append("role_id", 4);
 
